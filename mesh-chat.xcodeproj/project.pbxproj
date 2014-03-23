@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2545FB118DF181900AC2796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FB018DF181900AC2796 /* Foundation.framework */; };
+		F2545FB318DF181900AC2796 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FB218DF181900AC2796 /* CoreGraphics.framework */; };
+		F2545FB518DF181900AC2796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FB418DF181900AC2796 /* UIKit.framework */; };
+		F2545FB718DF181900AC2796 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FB618DF181900AC2796 /* CoreData.framework */; };
+		F2545FBD18DF181900AC2796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2545FBB18DF181900AC2796 /* InfoPlist.strings */; };
+		F2545FBF18DF181900AC2796 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2545FBE18DF181900AC2796 /* main.m */; };
+		F2545FC318DF181900AC2796 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2545FC218DF181900AC2796 /* AppDelegate.m */; };
+		F2545FC618DF181A00AC2796 /* mesh_chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2545FC418DF181A00AC2796 /* mesh_chat.xcdatamodeld */; };
+		F2545FC818DF181A00AC2796 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2545FC718DF181A00AC2796 /* Images.xcassets */; };
+		F2545FCF18DF181A00AC2796 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FCE18DF181A00AC2796 /* XCTest.framework */; };
+		F2545FD018DF181A00AC2796 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FB018DF181900AC2796 /* Foundation.framework */; };
+		F2545FD118DF181A00AC2796 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FB418DF181900AC2796 /* UIKit.framework */; };
+		F2545FD218DF181A00AC2796 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2545FB618DF181900AC2796 /* CoreData.framework */; };
+		F2545FDA18DF181A00AC2796 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2545FD818DF181A00AC2796 /* InfoPlist.strings */; };
+		F2545FDC18DF181A00AC2796 /* mesh_chatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F2545FDB18DF181A00AC2796 /* mesh_chatTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2545FD318DF181A00AC2796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2545FA518DF181900AC2796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2545FAC18DF181900AC2796;
+			remoteInfo = "mesh-chat";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F2545FAD18DF181900AC2796 /* mesh-chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mesh-chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2545FB018DF181900AC2796 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F2545FB218DF181900AC2796 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F2545FB418DF181900AC2796 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F2545FB618DF181900AC2796 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F2545FBA18DF181900AC2796 /* mesh-chat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mesh-chat-Info.plist"; sourceTree = "<group>"; };
+		F2545FBC18DF181900AC2796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2545FBE18DF181900AC2796 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F2545FC018DF181900AC2796 /* mesh-chat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mesh-chat-Prefix.pch"; sourceTree = "<group>"; };
+		F2545FC118DF181900AC2796 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F2545FC218DF181900AC2796 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F2545FC518DF181A00AC2796 /* mesh_chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mesh_chat.xcdatamodel; sourceTree = "<group>"; };
+		F2545FC718DF181A00AC2796 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F2545FCD18DF181A00AC2796 /* mesh-chatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mesh-chatTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2545FCE18DF181A00AC2796 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F2545FD718DF181A00AC2796 /* mesh-chatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mesh-chatTests-Info.plist"; sourceTree = "<group>"; };
+		F2545FD918DF181A00AC2796 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F2545FDB18DF181A00AC2796 /* mesh_chatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mesh_chatTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2545FAA18DF181900AC2796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2545FB318DF181900AC2796 /* CoreGraphics.framework in Frameworks */,
+				F2545FB718DF181900AC2796 /* CoreData.framework in Frameworks */,
+				F2545FB518DF181900AC2796 /* UIKit.framework in Frameworks */,
+				F2545FB118DF181900AC2796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2545FCA18DF181A00AC2796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2545FCF18DF181A00AC2796 /* XCTest.framework in Frameworks */,
+				F2545FD218DF181A00AC2796 /* CoreData.framework in Frameworks */,
+				F2545FD118DF181A00AC2796 /* UIKit.framework in Frameworks */,
+				F2545FD018DF181A00AC2796 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2545FA418DF181900AC2796 = {
+			isa = PBXGroup;
+			children = (
+				F2545FB818DF181900AC2796 /* mesh-chat */,
+				F2545FD518DF181A00AC2796 /* mesh-chatTests */,
+				F2545FAF18DF181900AC2796 /* Frameworks */,
+				F2545FAE18DF181900AC2796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2545FAE18DF181900AC2796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2545FAD18DF181900AC2796 /* mesh-chat.app */,
+				F2545FCD18DF181A00AC2796 /* mesh-chatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2545FAF18DF181900AC2796 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2545FB018DF181900AC2796 /* Foundation.framework */,
+				F2545FB218DF181900AC2796 /* CoreGraphics.framework */,
+				F2545FB418DF181900AC2796 /* UIKit.framework */,
+				F2545FB618DF181900AC2796 /* CoreData.framework */,
+				F2545FCE18DF181A00AC2796 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2545FB818DF181900AC2796 /* mesh-chat */ = {
+			isa = PBXGroup;
+			children = (
+				F2545FC118DF181900AC2796 /* AppDelegate.h */,
+				F2545FC218DF181900AC2796 /* AppDelegate.m */,
+				F2545FC718DF181A00AC2796 /* Images.xcassets */,
+				F2545FC418DF181A00AC2796 /* mesh_chat.xcdatamodeld */,
+				F2545FB918DF181900AC2796 /* Supporting Files */,
+			);
+			path = "mesh-chat";
+			sourceTree = "<group>";
+		};
+		F2545FB918DF181900AC2796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2545FBA18DF181900AC2796 /* mesh-chat-Info.plist */,
+				F2545FBB18DF181900AC2796 /* InfoPlist.strings */,
+				F2545FBE18DF181900AC2796 /* main.m */,
+				F2545FC018DF181900AC2796 /* mesh-chat-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2545FD518DF181A00AC2796 /* mesh-chatTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2545FDB18DF181A00AC2796 /* mesh_chatTests.m */,
+				F2545FD618DF181A00AC2796 /* Supporting Files */,
+			);
+			path = "mesh-chatTests";
+			sourceTree = "<group>";
+		};
+		F2545FD618DF181A00AC2796 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2545FD718DF181A00AC2796 /* mesh-chatTests-Info.plist */,
+				F2545FD818DF181A00AC2796 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2545FAC18DF181900AC2796 /* mesh-chat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2545FDF18DF181A00AC2796 /* Build configuration list for PBXNativeTarget "mesh-chat" */;
+			buildPhases = (
+				F2545FA918DF181900AC2796 /* Sources */,
+				F2545FAA18DF181900AC2796 /* Frameworks */,
+				F2545FAB18DF181900AC2796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mesh-chat";
+			productName = "mesh-chat";
+			productReference = F2545FAD18DF181900AC2796 /* mesh-chat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2545FCC18DF181A00AC2796 /* mesh-chatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2545FE218DF181A00AC2796 /* Build configuration list for PBXNativeTarget "mesh-chatTests" */;
+			buildPhases = (
+				F2545FC918DF181A00AC2796 /* Sources */,
+				F2545FCA18DF181A00AC2796 /* Frameworks */,
+				F2545FCB18DF181A00AC2796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2545FD418DF181A00AC2796 /* PBXTargetDependency */,
+			);
+			name = "mesh-chatTests";
+			productName = "mesh-chatTests";
+			productReference = F2545FCD18DF181A00AC2796 /* mesh-chatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2545FA518DF181900AC2796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				TargetAttributes = {
+					F2545FCC18DF181A00AC2796 = {
+						TestTargetID = F2545FAC18DF181900AC2796;
+					};
+				};
+			};
+			buildConfigurationList = F2545FA818DF181900AC2796 /* Build configuration list for PBXProject "mesh-chat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F2545FA418DF181900AC2796;
+			productRefGroup = F2545FAE18DF181900AC2796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2545FAC18DF181900AC2796 /* mesh-chat */,
+				F2545FCC18DF181A00AC2796 /* mesh-chatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2545FAB18DF181900AC2796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2545FBD18DF181900AC2796 /* InfoPlist.strings in Resources */,
+				F2545FC818DF181A00AC2796 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2545FCB18DF181A00AC2796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2545FDA18DF181A00AC2796 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2545FA918DF181900AC2796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2545FC318DF181900AC2796 /* AppDelegate.m in Sources */,
+				F2545FBF18DF181900AC2796 /* main.m in Sources */,
+				F2545FC618DF181A00AC2796 /* mesh_chat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2545FC918DF181A00AC2796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2545FDC18DF181A00AC2796 /* mesh_chatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2545FD418DF181A00AC2796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2545FAC18DF181900AC2796 /* mesh-chat */;
+			targetProxy = F2545FD318DF181A00AC2796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F2545FBB18DF181900AC2796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2545FBC18DF181900AC2796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F2545FD818DF181A00AC2796 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2545FD918DF181A00AC2796 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2545FDD18DF181A00AC2796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F2545FDE18DF181A00AC2796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2545FE018DF181A00AC2796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mesh-chat/mesh-chat-Prefix.pch";
+				INFOPLIST_FILE = "mesh-chat/mesh-chat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F2545FE118DF181A00AC2796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mesh-chat/mesh-chat-Prefix.pch";
+				INFOPLIST_FILE = "mesh-chat/mesh-chat-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F2545FE318DF181A00AC2796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mesh-chat.app/mesh-chat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mesh-chat/mesh-chat-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "mesh-chatTests/mesh-chatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F2545FE418DF181A00AC2796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mesh-chat.app/mesh-chat";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mesh-chat/mesh-chat-Prefix.pch";
+				INFOPLIST_FILE = "mesh-chatTests/mesh-chatTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2545FA818DF181900AC2796 /* Build configuration list for PBXProject "mesh-chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2545FDD18DF181A00AC2796 /* Debug */,
+				F2545FDE18DF181A00AC2796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2545FDF18DF181A00AC2796 /* Build configuration list for PBXNativeTarget "mesh-chat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2545FE018DF181A00AC2796 /* Debug */,
+				F2545FE118DF181A00AC2796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F2545FE218DF181A00AC2796 /* Build configuration list for PBXNativeTarget "mesh-chatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2545FE318DF181A00AC2796 /* Debug */,
+				F2545FE418DF181A00AC2796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2545FC418DF181A00AC2796 /* mesh_chat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2545FC518DF181A00AC2796 /* mesh_chat.xcdatamodel */,
+			);
+			currentVersion = F2545FC518DF181A00AC2796 /* mesh_chat.xcdatamodel */;
+			path = mesh_chat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2545FA518DF181900AC2796 /* Project object */;
+}
